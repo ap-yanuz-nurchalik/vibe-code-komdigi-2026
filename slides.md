@@ -37,6 +37,33 @@ fonts:
 
 ---
 layout: center
+---
+
+<!-- ═══════════════════════════════════════════════════════
+     SLIDE 1B — SPEAKER INTRO
+     ════════════════════════════════════════════════════ -->
+
+<div class="flex items-center gap-10 max-w-3xl mx-auto">
+  <img src="/yanuz-photo.jpg" class="flex-shrink-0 w-28 h-28 rounded-full border-2 border-blue-500/50 object-cover" style="object-position: 50% 22%;" alt="Yanuz Nurchalik" />
+  <div class="text-left">
+    <div class="text-2xl font-bold text-white mb-1">Yanuz Nurchalik</div>
+    <div class="text-sm text-blue-400 font-mono mb-4">Head of Product Core · AstraPay (Astra Group)</div>
+    <div class="space-y-2 text-xs text-slate-400">
+      <div class="flex items-start gap-2"><span class="text-blue-500 mt-0.5">▸</span><span>Building fintech infrastructure for <span class="text-slate-300">16M+ users</span> — payments, core banking, settlement systems</span></div>
+      <div class="flex items-start gap-2"><span class="text-blue-500 mt-0.5">▸</span><span>Ships production features using <span class="text-emerald-400">Claude Code + OpenCode</span> daily — no IDE, just a terminal</span></div>
+      <div class="flex items-start gap-2"><span class="text-blue-500 mt-0.5">▸</span><span>Backend engineer at heart. Thinks in systems. Has opinions about PostgreSQL indexes.</span></div>
+    </div>
+    <div class="flex gap-4 mt-4 text-[10px] font-mono">
+      <a href="https://x.com/chalk93" target="_blank" class="text-slate-500 hover:text-blue-400 transition-colors no-underline">𝕏 @chalk93</a>
+      <a href="https://linkedin.com/in/yanuzpurnomo" target="_blank" class="text-slate-500 hover:text-blue-400 transition-colors no-underline">in yanuzpurnomo</a>
+      <a href="https://github.com/ap-yanuz-nurchalik" target="_blank" class="text-slate-500 hover:text-blue-400 transition-colors no-underline flex items-center gap-1"><svg viewBox="0 0 24 24" class="w-3 h-3 inline fill-current flex-shrink-0"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>ap-yanuz-nurchalik</a>
+      <a href="https://github.com/yanuz93" target="_blank" class="text-slate-500 hover:text-blue-400 transition-colors no-underline">/ yanuz93</a>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
 class: text-center
 ---
 
@@ -91,6 +118,205 @@ layout: center
 <div class="text-center text-xs text-slate-600 mt-5 font-mono">
   Levels don't compete — they compound. Use the right tool at the right phase.
 </div>
+
+---
+layout: center
+---
+
+<!-- ═══════════════════════════════════════════════════════
+     SLIDE 2B — AI MODELS
+     ════════════════════════════════════════════════════ -->
+
+# Meet the Models
+
+<div class="mt-6 max-w-3xl mx-auto">
+  <div class="text-xs text-slate-500 font-mono text-center tracking-widest mb-6">THE BRAINS BEHIND EVERYTHING</div>
+  <div class="grid grid-cols-3 gap-4">
+    <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-4 text-center">
+      <div class="text-2xl mb-2">🟢</div>
+      <div class="text-sm font-bold text-slate-200 mb-1">OpenAI</div>
+      <div class="text-xs text-slate-500 mb-3">GPT-5.4</div>
+      <div class="text-[10px] text-slate-600 leading-relaxed">The one that started it all.<br>ChatGPT — you know it.</div>
+    </div>
+    <div class="rounded-xl border border-blue-700/50 bg-blue-950/20 p-4 text-center ring-1 ring-blue-600/20">
+      <div class="text-2xl mb-2">🔷</div>
+      <div class="text-sm font-bold text-blue-300 mb-1">Anthropic</div>
+      <div class="text-xs text-blue-500 mb-3">Claude Opus 4.6 · Sonnet 4.6</div>
+      <div class="text-[10px] text-slate-500 leading-relaxed">Strong at code, long context,<br>and being honest (rare).</div>
+    </div>
+    <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-4 text-center">
+      <div class="text-2xl mb-2">🔵</div>
+      <div class="text-sm font-bold text-slate-200 mb-1">Google</div>
+      <div class="text-xs text-slate-500 mb-3">Gemini 3.1</div>
+      <div class="text-[10px] text-slate-600 leading-relaxed">1M token context.<br>Excellent multimodal.</div>
+    </div>
+  </div>
+  <div class="mt-5 rounded-lg border border-slate-700/40 bg-slate-900/20 px-5 py-3 text-center text-xs text-slate-500">
+    All of them are <span class="text-slate-300 font-semibold">Large Language Models (LLMs)</span> — they predict the next token. The magic is in scale.
+  </div>
+</div>
+
+---
+layout: center
+---
+
+<!-- ═══════════════════════════════════════════════════════
+     SLIDE 2C — AI TOOLS LANDSCAPE
+     ════════════════════════════════════════════════════ -->
+
+# How AI Enters Your Workflow
+
+<div class="mt-6 max-w-3xl mx-auto space-y-3">
+  <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-4 flex items-start gap-4">
+    <div class="text-xl mt-0.5">💬</div>
+    <div>
+      <div class="text-sm font-bold text-slate-300 mb-0.5">Chat Interface</div>
+      <div class="text-xs text-slate-500">Ask a question, get an answer. Copy. Paste. Repeat.</div>
+      <div class="text-[10px] font-mono text-slate-600 mt-1">ChatGPT · Claude.ai · Gemini</div>
+    </div>
+  </div>
+  <div class="rounded-xl border border-amber-800/40 bg-amber-950/10 p-4 flex items-start gap-4">
+    <div class="text-xl mt-0.5">⌨️</div>
+    <div>
+      <div class="text-sm font-bold text-amber-300 mb-0.5">AI-Assisted Coding</div>
+      <div class="text-xs text-slate-400">AI lives inside your IDE. Suggests as you type. You still drive.</div>
+      <div class="text-[10px] font-mono text-amber-700 mt-1">GitHub Copilot · Google Stitch · Cursor</div>
+    </div>
+  </div>
+  <div class="rounded-xl border border-purple-700/40 bg-purple-950/10 p-4 flex items-start gap-4">
+    <div class="text-xl mt-0.5">🔌</div>
+    <div>
+      <div class="text-sm font-bold text-purple-300 mb-0.5">MCP — Model Context Protocol</div>
+      <div class="text-xs text-slate-400">Gives AI access to <span class="text-slate-300">tools</span>: your filesystem, browser, APIs, databases. AI stops guessing — it <em>reads</em>.</div>
+      <div class="text-[10px] font-mono text-purple-700 mt-1">Anthropic open standard · Nov 2024</div>
+    </div>
+  </div>
+  <div class="rounded-xl border border-emerald-600/40 bg-emerald-950/10 p-4 flex items-start gap-4">
+    <div class="text-xl mt-0.5">🤖</div>
+    <div>
+      <div class="text-sm font-bold text-emerald-300 mb-0.5">AI Agent</div>
+      <div class="text-xs text-slate-400">AI that <span class="text-slate-300">acts</span>: reads your codebase, plans, writes files, runs commands, verifies, deploys.</div>
+      <div class="text-[10px] font-mono text-emerald-700 mt-1">Claude Code · OpenCode</div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+<!-- ═══════════════════════════════════════════════════════
+     SLIDE 2E — THE AI TRINITY
+     ════════════════════════════════════════════════════ -->
+
+# The Three Pieces of an AI Agent
+
+<div class="grid grid-cols-3 gap-5 mt-8 max-w-3xl mx-auto">
+  <div class="rounded-xl border border-blue-700/50 bg-blue-950/15 p-5 text-center">
+    <div class="text-3xl mb-3">🧠</div>
+    <div class="text-xs font-mono text-blue-400 tracking-widest mb-2">MODEL</div>
+    <div class="text-base font-bold text-blue-300 mb-3">The Brain</div>
+    <div class="text-xs text-slate-400 leading-relaxed mb-4">Reads, reasons, writes. The LLM that understands your intent and generates responses.</div>
+    <div class="text-[10px] font-mono text-blue-700">GPT-5 · Claude · Gemini</div>
+  </div>
+  <div class="rounded-xl border border-purple-700/50 bg-purple-950/15 p-5 text-center">
+    <div class="text-3xl mb-3">🔌</div>
+    <div class="text-xs font-mono text-purple-400 tracking-widest mb-2">MCP</div>
+    <div class="text-base font-bold text-purple-300 mb-3">The Hands</div>
+    <div class="text-xs text-slate-400 leading-relaxed mb-4">Connects AI to the real world. Files, browsers, APIs, databases. AI stops guessing — it <em>acts</em>.</div>
+    <div class="text-[10px] font-mono text-purple-700">Model Context Protocol</div>
+  </div>
+  <div class="rounded-xl border border-amber-700/50 bg-amber-950/15 p-5 text-center">
+    <div class="text-3xl mb-3">📋</div>
+    <div class="text-xs font-mono text-amber-400 tracking-widest mb-2">SKILLS</div>
+    <div class="text-base font-bold text-amber-300 mb-3">The Playbook</div>
+    <div class="text-xs text-slate-400 leading-relaxed mb-4">Reusable workflows that tell the agent <em>how</em> to approach tasks. Encoded expertise. SOPs for AI.</div>
+    <div class="text-[10px] font-mono text-amber-700">Brainstorm · TDD · Deploy</div>
+  </div>
+</div>
+<div class="mt-5 text-center text-xs text-slate-600">A brain that can act, guided by experience &#8212; that's an agent.</div>
+
+---
+layout: center
+---
+
+<!-- ═══════════════════════════════════════════════════════
+     SLIDE 2D — MCPs EXPLAINED
+     ════════════════════════════════════════════════════ -->
+
+# MCPs: Why They Change Everything
+
+<div class="grid grid-cols-2 gap-8 mt-6 max-w-3xl mx-auto">
+  <div class="space-y-3">
+    <div class="text-xs font-mono text-slate-500 tracking-widest mb-4">WITHOUT MCP</div>
+    <div class="rounded-lg border border-slate-700/50 bg-slate-900/40 p-3 text-xs text-slate-400">
+      You: <span class="text-slate-300">"How do I fix this bug?"</span>
+    </div>
+    <div class="text-xs text-slate-600 text-center">&#8595; AI guesses from training data</div>
+    <div class="rounded-lg border border-slate-700/50 bg-slate-900/40 p-3 text-xs text-slate-400">
+      AI: <span class="text-slate-300">"Try this &#8212; it might work?"</span>
+    </div>
+    <div class="text-xs text-slate-600 text-center">&#8595; you copy-paste, maybe it works</div>
+    <div class="rounded-lg border border-red-900/40 bg-red-950/10 p-3 text-xs text-slate-500 italic">
+      😐 3 hours of back-and-forth
+    </div>
+  </div>
+  <div class="space-y-3">
+    <div class="text-xs font-mono text-emerald-500 tracking-widest mb-4">WITH MCP</div>
+    <div class="rounded-lg border border-emerald-800/40 bg-emerald-950/10 p-3 text-xs text-slate-400">
+      You: <span class="text-slate-300">"Fix the bug in auth.ts"</span>
+    </div>
+    <div class="text-xs text-slate-600 text-center">&#8595; AI reads auth.ts, runs tests, sees errors</div>
+    <div class="rounded-lg border border-emerald-800/40 bg-emerald-950/10 p-3 text-xs text-slate-400">
+      AI: <span class="text-emerald-300">edits file &#8594; runs tests &#8594; "Fixed. Tests pass."</span>
+    </div>
+    <div class="text-xs text-slate-600 text-center">&#8595; actual working code</div>
+    <div class="rounded-lg border border-emerald-800/40 bg-emerald-950/10 p-3 text-xs text-emerald-500 italic">
+      ✓ Done in 40 seconds
+    </div>
+  </div>
+</div>
+<div class="mt-5 text-center text-xs text-slate-600">MCP is the bridge from <span class="text-amber-400">AI that advises</span> &#8594; <span class="text-emerald-400">AI that acts</span></div>
+
+---
+layout: center
+---
+
+<!-- ═══════════════════════════════════════════════════════
+     SLIDE 2F — SKILLS EXPLAINED
+     ════════════════════════════════════════════════════ -->
+
+# Skills: The Agent's Expertise
+
+<div class="grid grid-cols-2 gap-8 mt-6 max-w-3xl mx-auto">
+  <div class="space-y-3">
+    <div class="text-xs font-mono text-slate-500 tracking-widest mb-4">WITHOUT SKILLS</div>
+    <div class="rounded-lg border border-slate-700/50 bg-slate-900/40 p-3 text-xs text-slate-400">
+      You: <span class="text-slate-300">"Write tests for this feature"</span>
+    </div>
+    <div class="text-xs text-slate-600 text-center">&#8595; agent figures it out from scratch</div>
+    <div class="rounded-lg border border-slate-700/50 bg-slate-900/40 p-3 text-xs text-slate-500">
+      Agent writes <em>something</em>. Maybe good, maybe not. No consistency.
+    </div>
+    <div class="rounded-lg border border-red-900/40 bg-red-950/10 p-3 text-xs text-slate-500 italic">
+      🎲 Results vary every time
+    </div>
+  </div>
+  <div class="space-y-3">
+    <div class="text-xs font-mono text-amber-500 tracking-widest mb-4">WITH A TDD SKILL</div>
+    <div class="rounded-lg border border-amber-800/40 bg-amber-950/10 p-3 text-xs text-slate-400">
+      You: <span class="text-slate-300">"Write tests for this feature"</span>
+    </div>
+    <div class="text-xs text-slate-600 text-center">&#8595; agent loads the TDD playbook</div>
+    <div class="rounded-lg border border-amber-800/40 bg-amber-950/10 p-3 text-xs text-slate-400">
+      Agent follows: red &#8594; green &#8594; refactor. Edge cases. Mocks. Coverage check.
+    </div>
+    <div class="rounded-lg border border-amber-800/40 bg-amber-950/10 p-3 text-xs text-amber-400 italic">
+      ✓ Mid-level quality, consistently. Senior, sometimes.
+    </div>
+  </div>
+</div>
+<div class="mt-4 text-center text-xs text-slate-600">Skills = reusable expertise you teach the agent once, and it applies forever.<br><span class="text-amber-500/70">Brainstorm · TDD · Deploy · Code Review · Security Audit · ...</span></div>
 
 ---
 layout: center

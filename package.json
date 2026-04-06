@@ -8,8 +8,12 @@
     "preview": "slidev preview"
   },
   "dependencies": {
+    "@iconify/json": "^2.2.0",
     "@slidev/cli": "^0.50.0",
-    "@slidev/theme-default": "latest",
-    "@iconify/json": "^2.2.0"
+    "@slidev/theme-default": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.59.1",
+    "qrcode": "^1.5.4"
   }
 }
