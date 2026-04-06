@@ -83,3 +83,83 @@
 .slidev-layout table td {
   padding: 0.5rem 1rem;
 }
+
+/* ─── Light mode overrides ──────────────────────────────── */
+html.light .slidev-layout {
+  background-color: #F8FAFC;
+  color: #0F172A;
+}
+
+html.light .slidev-layout.cover,
+html.light .slidev-layout.center,
+html.light .slidev-layout.default,
+html.light .slidev-layout.two-cols {
+  background-color: #F8FAFC;
+}
+
+html.light .slidev-layout h1 { color: #0F172A; }
+html.light .slidev-layout h2 { color: #1E293B; }
+
+/* Text slate inversions */
+html.light .text-slate-200 { color: #1e293b !important; }
+html.light .text-slate-300 { color: #334155 !important; }
+html.light .text-slate-400 { color: #475569 !important; }
+html.light .text-slate-500 { color: #64748b !important; }
+html.light .text-slate-600 { color: #64748b !important; }
+html.light .text-white     { color: #0f172a !important; }
+
+/* Card / surface backgrounds */
+html.light .bg-slate-900\/30 { background-color: rgba(241,245,249,0.7) !important; }
+html.light .bg-slate-900\/40 { background-color: rgba(226,232,240,0.6) !important; }
+html.light .bg-slate-900\/50 { background-color: rgba(203,213,225,0.5) !important; }
+html.light .bg-slate-800\/60 { background-color: rgba(226,232,240,0.6) !important; }
+html.light .bg-slate-800\/70 { background-color: rgba(226,232,240,0.8) !important; }
+html.light .bg-slate-800\/80 { background-color: rgba(203,213,225,0.8) !important; }
+
+/* Tinted accent backgrounds */
+html.light .bg-emerald-950\/10 { background-color: rgba(209,250,229,0.6) !important; }
+html.light .bg-emerald-950\/15 { background-color: rgba(209,250,229,0.7) !important; }
+html.light .bg-emerald-950\/60 { background-color: rgba(167,243,208,0.5) !important; }
+html.light .bg-amber-950\/10   { background-color: rgba(254,243,199,0.6) !important; }
+html.light .bg-amber-950\/60   { background-color: rgba(252,211,77,0.3) !important; }
+html.light .bg-blue-950\/15    { background-color: rgba(219,234,254,0.7) !important; }
+html.light .bg-blue-950\/20    { background-color: rgba(219,234,254,0.8) !important; }
+html.light .bg-red-950\/10     { background-color: rgba(254,226,226,0.6) !important; }
+html.light .bg-purple-950\/10  { background-color: rgba(243,232,255,0.6) !important; }
+
+/* Borders */
+html.light .border-slate-700\/50 { border-color: rgba(148,163,184,0.5) !important; }
+html.light .border-slate-700\/60 { border-color: rgba(148,163,184,0.6) !important; }
+html.light .border-slate-700\/40 { border-color: rgba(148,163,184,0.4) !important; }
+html.light .border-slate-800\/40 { border-color: rgba(148,163,184,0.3) !important; }
+
+/* Accent text — darken for light bg */
+html.light .text-blue-400   { color: #1d4ed8 !important; }
+html.light .text-blue-500   { color: #1d4ed8 !important; }
+html.light .text-blue-700   { color: #1e40af !important; }
+html.light .text-emerald-400 { color: #059669 !important; }
+html.light .text-emerald-500 { color: #047857 !important; }
+html.light .text-emerald-700 { color: #065f46 !important; }
+html.light .text-amber-400   { color: #b45309 !important; }
+html.light .text-amber-500   { color: #92400e !important; }
+html.light .text-amber-700   { color: #78350f !important; }
+html.light .text-purple-300  { color: #6d28d9 !important; }
+html.light .text-purple-700  { color: #4c1d95 !important; }
+
+/* Code blocks */
+html.light .slidev-layout pre,
+html.light .slidev-layout code {
+  background-color: #f1f5f9 !important;
+  color: #1e293b !important;
+}
+
+/* Stack badge */
+html.light .stack-badge {
+  background-color: #f8fafc;
+  border-color: #e2e8f0;
+}
+html.light .stack-badge:hover { border-color: #3B82F6; }
+
+/* Scrollbar */
+html.light ::-webkit-scrollbar-track  { background: #F8FAFC; }
+html.light ::-webkit-scrollbar-thumb  { background: #cbd5e1; }
