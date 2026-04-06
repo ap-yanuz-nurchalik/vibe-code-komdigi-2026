@@ -629,60 +629,63 @@ class: text-center
 <div class="mt-4 text-sm text-slate-600 italic">"PRD first. Plan before execute. Design with Stitch. Agent handles the rest."</div>
 
 ---
-layout: center
-class: text-center
+title: You Have 75 Minutes Starting at 10:15
 ---
 
 <!-- ═══════════════════════════════════════════════════════
      SLIDE 14 — YOU HAVE 75 MINUTES
      ════════════════════════════════════════════════════ -->
 
-# You Have 75 Minutes Starting at 10:15
+<div style="text-align: center; margin-bottom: 18px;">
+  <h1 style="font-size: 1.9rem; font-weight: 700; color: white; line-height: 1.2;">You Have 75 Minutes Starting at 10:15</h1>
+</div>
 
-<div class="max-w-lg mx-auto mt-5">
-  <div class="rounded-xl border border-blue-700/50 bg-blue-950/15 p-6 text-left">
-    <div class="text-[10px] font-mono text-blue-400 tracking-[0.2em] mb-5">YOUR QUICK-START GUIDE</div>
+<div style="max-width: 520px; margin: 0 auto;">
+  <div style="border-radius: 12px; border: 1px solid rgba(59,130,246,0.4); background: rgba(23,37,84,0.12); padding: 24px;">
+    <div style="font-size: 10px; font-family: monospace; color: #60A5FA; letter-spacing: 0.2em; margin-bottom: 20px;">YOUR QUICK-START GUIDE</div>
 
-    <div class="space-y-4">
-      <div class="flex items-start gap-3">
-        <div class="text-blue-400 font-bold text-lg leading-none shrink-0 mt-0.5">1</div>
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+
+      <div style="display: flex; align-items: flex-start; gap: 12px;">
+        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">1</div>
         <div>
-          <div class="text-sm font-semibold text-white mb-1">Plan before you prompt</div>
-          <div class="text-xs text-slate-500 font-mono bg-slate-900/60 rounded px-2 py-1">
+          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Plan before you prompt</div>
+          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">
             "I want to build X for Y users. Key features: A, B, C."
           </div>
         </div>
       </div>
 
-      <div class="flex items-start gap-3">
-        <div class="text-blue-400 font-bold text-lg leading-none shrink-0 mt-0.5">2</div>
+      <div style="display: flex; align-items: flex-start; gap: 12px;">
+        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">2</div>
         <div>
-          <div class="text-sm font-semibold text-white mb-1">Design with Stitch or v0 first</div>
-          <div class="text-xs text-slate-500 mt-0.5">Get your UI components visually — faster to iterate than code</div>
+          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Design with Stitch or v0 first</div>
+          <div style="font-size: 0.75rem; color: #64748B; margin-top: 2px;">Get your UI components visually &#8212; faster to iterate than code</div>
         </div>
       </div>
 
-      <div class="flex items-start gap-3">
-        <div class="text-blue-400 font-bold text-lg leading-none shrink-0 mt-0.5">3</div>
+      <div style="display: flex; align-items: flex-start; gap: 12px;">
+        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">3</div>
         <div>
-          <div class="text-sm font-semibold text-white mb-1">Let the agent build and deploy</div>
-          <div class="text-xs text-slate-500 font-mono bg-slate-900/60 rounded px-2 py-1">
-            claude "Build the app — read plan, integrate design, deploy Cloudflare"
+          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Let the agent build and deploy</div>
+          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">
+            claude "Build the app &#8212; read plan, integrate design, deploy Cloudflare"
           </div>
         </div>
       </div>
 
-      <div class="flex items-start gap-3">
-        <div class="text-blue-400 font-bold text-lg leading-none shrink-0 mt-0.5">4</div>
+      <div style="display: flex; align-items: flex-start; gap: 12px;">
+        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">4</div>
         <div>
-          <div class="text-sm font-semibold text-white mb-1">Iterate — each round is 2–5 minutes</div>
-          <div class="text-xs text-slate-500 mt-0.5">Ship something real. Don't wait for perfect.</div>
+          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Iterate &#8212; each round is 2&#8211;5 minutes</div>
+          <div style="font-size: 0.75rem; color: #64748B; margin-top: 2px;">Ship something real. Do not wait for perfect.</div>
         </div>
       </div>
+
     </div>
   </div>
 
-  <div class="mt-3 text-xs text-slate-600 font-mono">
+  <div style="margin-top: 12px; font-size: 0.72rem; color: #374151; font-family: monospace; text-align: center;">
     npm install -g @anthropic-ai/claude-code
   </div>
 </div>
