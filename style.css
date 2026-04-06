@@ -1,0 +1,80 @@
+/* ─── Global background & text ─────────────────────────── */
+.slidev-layout {
+  background-color: #0A0F1E;
+  color: #F1F5F9;
+}
+
+.slidev-layout.cover,
+.slidev-layout.center,
+.slidev-layout.default,
+.slidev-layout.two-cols {
+  background-color: #0A0F1E;
+}
+
+/* ─── Headings ──────────────────────────────────────────── */
+.slidev-layout h1 {
+  color: #F1F5F9;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.slidev-layout h2 {
+  color: #CBD5E1;
+}
+
+/* ─── Code blocks ───────────────────────────────────────── */
+.slidev-layout pre,
+.slidev-layout code {
+  background-color: #0D1117 !important;
+}
+
+/* ─── Mermaid diagrams – dark-friendly ──────────────────── */
+.mermaid svg {
+  background: transparent !important;
+}
+
+/* ─── Stack badge grid cards ────────────────────────────── */
+.stack-badge {
+  border: 1px solid #1E2D4A;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #0F1929;
+  transition: border-color 0.2s;
+}
+
+.stack-badge:hover {
+  border-color: #3B82F6;
+}
+
+/* ─── Scrollbar (presenter notes pane) ─────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0F1E;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2D4A;
+  border-radius: 2px;
+}
+
+/* ─── Slidev progress bar ───────────────────────────────── */
+.slidev-progress {
+  background-color: #3B82F6 !important;
+}
+
+/* ─── Two-cols equal height ──────────────────────────────── */
+.slidev-layout.two-cols > div {
+  align-items: start;
+}
+
+/* ─── Table base ────────────────────────────────────────── */
+.slidev-layout table {
+  border-collapse: collapse;
+}
+
+.slidev-layout table th,
+.slidev-layout table td {
+  padding: 0.5rem 1rem;
+}
