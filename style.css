@@ -69,6 +69,11 @@
   align-items: start;
 }
 
+/* ─── Hide Goto dialog (slide navigator) ───────────────── */
+#slidev-goto-dialog {
+  display: none !important;
+}
+
 /* ─── Table base ────────────────────────────────────────── */
 .slidev-layout table {
   border-collapse: collapse;

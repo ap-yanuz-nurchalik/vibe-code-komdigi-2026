@@ -47,9 +47,9 @@ class: text-center
 # The World Changed in 2025
 
 <div class="grid grid-cols-3 gap-6 mt-10 max-w-3xl mx-auto">
-  <StatCard value="10×" label="More code written by AI agents than humans in 2026" />
+  <StatCard value="8–20×" label="Code output with agentic coding" sub="Documented team result, 2025" />
   <StatCard value="3–5 days" label="From idea to deployed app" sub="Was 3–6 months" :highlight="true" />
-  <StatCard value="1 week" label="Cloudflare rebuilt Next.js" sub="1 engineer + AI agent, Feb 2026" />
+  <StatCard value="1 week" label="Cloudflare rebuilt 94% of Next.js" sub="1 engineer + AI · $1,100 in Claude tokens" />
 </div>
 
 ---
@@ -75,7 +75,6 @@ layout: center
     <div class="text-[9px] font-mono text-amber-500 tracking-[0.2em] mb-2">LEVEL 2</div>
     <div class="text-xl font-bold text-amber-300 mb-3">AI-Assisted</div>
     <div class="text-xs text-slate-400 leading-relaxed mb-3">AI suggests, you type.<br>Copilot · Stitch · Cursor</div>
-    <div class="text-[10px] text-amber-700 italic mb-3">&#8592; Anton covers this next</div>
     <div class="text-xs font-mono bg-amber-950/50 rounded-lg px-3 py-2 text-amber-500">2–4 weeks to MVP</div>
   </div>
 
@@ -597,36 +596,27 @@ class: text-center
      SLIDE 13 — PROOF / DEMO
      ════════════════════════════════════════════════════ -->
 
-# It Works. Here's Proof.
+# Oh, By The Way — These Slides Were Vibed Too.
 
-<div class="grid grid-cols-2 gap-8 mt-6 items-center max-w-2xl mx-auto">
+<div class="grid grid-cols-2 gap-10 mt-8 items-center max-w-2xl mx-auto">
 
-  <div class="rounded-xl border border-slate-700/60 bg-slate-900/40 p-6 text-left">
-    <div class="text-3xl mb-3">🏛️</div>
-    <div class="text-lg font-bold text-emerald-400 mb-1">Sistem Perizinan Online</div>
-    <div class="text-xs text-slate-500 mb-4 font-mono">Built in one terminal session. Zero IDE.</div>
-    <div class="space-y-1.5 text-xs text-slate-400">
-      <div class="flex items-center gap-2"><span class="text-emerald-500">✓</span> Submit permit application</div>
-      <div class="flex items-center gap-2"><span class="text-emerald-500">✓</span> Track application status</div>
-      <div class="flex items-center gap-2"><span class="text-emerald-500">✓</span> Admin review dashboard</div>
-      <div class="flex items-center gap-2"><span class="text-emerald-500">✓</span> Live on Cloudflare globally</div>
-      <div class="flex items-center gap-2"><span class="text-emerald-500">✓</span> 84% test coverage</div>
-    </div>
+  <div class="space-y-3 text-left">
+    <div class="text-xs font-mono text-slate-500 tracking-widest mb-4">PROOF OF CONCEPT</div>
+    <div class="text-sm text-slate-300">This entire presentation — 15 slides, custom components, live on Cloudflare — was built in one terminal session.</div>
+    <div class="text-sm text-slate-300">No PowerPoint. No Figma. No IDE.</div>
+    <div class="mt-4 text-sm text-emerald-400 font-mono">Just: <span class="text-white">claude "make me a presentation"</span></div>
+    <div class="mt-3 text-xs text-slate-600 italic">(and some back-and-forth. AI is not magic. Yet.)</div>
   </div>
 
-  <div class="space-y-4">
+  <div class="space-y-3 text-center">
     <div class="rounded-xl border border-blue-800/40 bg-blue-950/15 p-5">
-      <div class="text-xs text-blue-400 font-mono mb-3 tracking-wide">LIVE DEMO</div>
-      <div class="w-28 h-28 bg-slate-800/80 border border-slate-700 rounded-lg mx-auto flex items-center justify-center text-slate-600 text-xs">
-        [QR Code]
-      </div>
+      <div class="text-xs text-blue-400 font-mono mb-3 tracking-wide">SCAN — KEEP THE SLIDES</div>
+      <img src="/qr-presentation.png" class="mx-auto w-28 h-28" alt="QR code" />
     </div>
-    <div class="text-xs text-slate-600 font-mono">permits-demo.pages.dev</div>
+    <div class="text-xs text-slate-600 font-mono">vibe-code-komdigi-2026.yanuz.workers.dev</div>
   </div>
 
 </div>
-
-<div class="mt-4 text-sm text-slate-600 italic">"PRD first. Plan before execute. Design with Stitch. Agent handles the rest."</div>
 
 ---
 title: You Have 75 Minutes Starting at 10:15
@@ -696,7 +686,7 @@ class: text-center
   <div class="rounded-xl border border-amber-800/50 bg-amber-950/10 p-5 text-center">
     <div class="text-[9px] font-mono text-amber-500 tracking-[0.2em] mb-2">LEVEL 2</div>
     <div class="font-bold text-amber-400 mb-2">AI-Assisted</div>
-    <div class="text-xs text-slate-500 leading-relaxed">Anton shows you this.<br>Next 30 minutes. 👉</div>
+    <div class="text-xs text-slate-500 leading-relaxed">Copilot · Stitch · Cursor</div>
   </div>
 
   <div class="rounded-xl border border-emerald-600/50 bg-emerald-950/15 p-5 text-center ring-1 ring-emerald-500/25">
