@@ -636,26 +636,18 @@ title: You Have 75 Minutes Starting at 10:15
      SLIDE 14 — YOU HAVE 75 MINUTES
      ════════════════════════════════════════════════════ -->
 
-<div style="text-align: center; margin-bottom: 18px;">
-  <h1 style="font-size: 1.9rem; font-weight: 700; color: white; line-height: 1.2;">You Have 75 Minutes Starting at 10:15</h1>
-</div>
-
+<div style="text-align: center; margin-bottom: 18px;"><h1 style="font-size: 1.9rem; font-weight: 700; color: white; line-height: 1.2;">You Have 75 Minutes Starting at 10:15</h1></div>
 <div style="max-width: 520px; margin: 0 auto;">
   <div style="border-radius: 12px; border: 1px solid rgba(59,130,246,0.4); background: rgba(23,37,84,0.12); padding: 24px;">
     <div style="font-size: 10px; font-family: monospace; color: #60A5FA; letter-spacing: 0.2em; margin-bottom: 20px;">YOUR QUICK-START GUIDE</div>
-
     <div style="display: flex; flex-direction: column; gap: 16px;">
-
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">1</div>
         <div>
           <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Plan before you prompt</div>
-          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">
-            "I want to build X for Y users. Key features: A, B, C."
-          </div>
+          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">"I want to build X for Y users. Key features: A, B, C."</div>
         </div>
       </div>
-
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">2</div>
         <div>
@@ -663,17 +655,13 @@ title: You Have 75 Minutes Starting at 10:15
           <div style="font-size: 0.75rem; color: #64748B; margin-top: 2px;">Get your UI components visually &#8212; faster to iterate than code</div>
         </div>
       </div>
-
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">3</div>
         <div>
           <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Let the agent build and deploy</div>
-          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">
-            claude "Build the app &#8212; read plan, integrate design, deploy Cloudflare"
-          </div>
+          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">claude "Build the app &#8212; read plan, integrate design, deploy Cloudflare"</div>
         </div>
       </div>
-
       <div style="display: flex; align-items: flex-start; gap: 12px;">
         <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">4</div>
         <div>
@@ -681,13 +669,9 @@ title: You Have 75 Minutes Starting at 10:15
           <div style="font-size: 0.75rem; color: #64748B; margin-top: 2px;">Ship something real. Do not wait for perfect.</div>
         </div>
       </div>
-
     </div>
   </div>
-
-  <div style="margin-top: 12px; font-size: 0.72rem; color: #374151; font-family: monospace; text-align: center;">
-    npm install -g @anthropic-ai/claude-code
-  </div>
+  <div style="margin-top: 12px; font-size: 0.72rem; color: #374151; font-family: monospace; text-align: center;">npm install -g @anthropic-ai/claude-code</div>
 </div>
 
 ---
