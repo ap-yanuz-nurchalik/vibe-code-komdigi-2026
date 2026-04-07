@@ -120,45 +120,6 @@ layout: center
 </div>
 
 ---
-layout: center
----
-
-<!-- ═══════════════════════════════════════════════════════
-     SLIDE 2B — AI MODELS
-     ════════════════════════════════════════════════════ -->
-
-# Meet the Models
-
-<div class="mt-6 max-w-3xl mx-auto">
-  <div class="text-xs text-slate-500 font-mono text-center tracking-widest mb-6">THE BRAINS BEHIND EVERYTHING</div>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-4 text-center">
-      <div class="text-2xl mb-2">🟢</div>
-      <div class="text-sm font-bold text-slate-200 mb-1">OpenAI</div>
-      <div class="text-xs text-slate-500 mb-3">GPT-5.4</div>
-      <div class="text-[10px] text-slate-600 leading-relaxed">The one that started it all.<br>ChatGPT — you know it.</div>
-    </div>
-    <div class="rounded-xl border border-blue-700/50 bg-blue-950/20 p-4 text-center ring-1 ring-blue-600/20">
-      <div class="text-2xl mb-2">🔷</div>
-      <div class="text-sm font-bold text-blue-300 mb-1">Anthropic</div>
-      <div class="text-xs text-blue-500 mb-3">Claude Opus 4.6 · Sonnet 4.6</div>
-      <div class="text-[10px] text-slate-500 leading-relaxed">Strong at code, long context,<br>and being honest (rare).</div>
-    </div>
-    <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-4 text-center">
-      <div class="text-2xl mb-2">🔵</div>
-      <div class="text-sm font-bold text-slate-200 mb-1">Google</div>
-      <div class="text-xs text-slate-500 mb-3">Gemini 3.1</div>
-      <div class="text-[10px] text-slate-600 leading-relaxed">1M token context.<br>Excellent multimodal.</div>
-    </div>
-  </div>
-  <div class="mt-5 rounded-lg border border-slate-700/40 bg-slate-900/20 px-5 py-3 text-center text-xs text-slate-500">
-    All of them are <span class="text-slate-300 font-semibold">Large Language Models (LLMs)</span> — they predict the next token. The magic is in scale.
-  </div>
-</div>
-
----
-layout: center
----
 
 <!-- ═══════════════════════════════════════════════════════
      SLIDE 2C — AI TOOLS LANDSCAPE
@@ -235,6 +196,43 @@ layout: center
   </div>
 </div>
 <div class="mt-5 text-center text-xs text-slate-600">A brain that can act, guided by experience &#8212; that's an agent.</div>
+
+---
+layout: center
+---
+
+<!-- ═══════════════════════════════════════════════════════
+     SLIDE 2B — AI MODELS
+     ════════════════════════════════════════════════════ -->
+
+# Meet the Models
+
+<div class="mt-6 max-w-3xl mx-auto">
+  <div class="text-xs text-slate-500 font-mono text-center tracking-widest mb-6">THE BRAINS BEHIND EVERYTHING</div>
+  <div class="grid grid-cols-3 gap-4">
+    <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-4 text-center">
+      <div class="text-2xl mb-2">🟢</div>
+      <div class="text-sm font-bold text-slate-200 mb-1">OpenAI</div>
+      <div class="text-xs text-slate-500 mb-3">GPT-5.4</div>
+      <div class="text-[10px] text-slate-600 leading-relaxed">The one that started it all.<br>ChatGPT — you know it.</div>
+    </div>
+    <div class="rounded-xl border border-blue-700/50 bg-blue-950/20 p-4 text-center ring-1 ring-blue-600/20">
+      <div class="text-2xl mb-2">🔷</div>
+      <div class="text-sm font-bold text-blue-300 mb-1">Anthropic</div>
+      <div class="text-xs text-blue-500 mb-3">Claude Opus 4.6 · Sonnet 4.6</div>
+      <div class="text-[10px] text-slate-500 leading-relaxed">Strong at code, long context,<br>and being honest (rare).</div>
+    </div>
+    <div class="rounded-xl border border-slate-700/50 bg-slate-900/30 p-4 text-center">
+      <div class="text-2xl mb-2">🔵</div>
+      <div class="text-sm font-bold text-slate-200 mb-1">Google</div>
+      <div class="text-xs text-slate-500 mb-3">Gemini 3.1</div>
+      <div class="text-[10px] text-slate-600 leading-relaxed">1M token context.<br>Excellent multimodal.</div>
+    </div>
+  </div>
+  <div class="mt-5 rounded-lg border border-slate-700/40 bg-slate-900/20 px-5 py-3 text-center text-xs text-slate-500">
+    All of them are <span class="text-slate-300 font-semibold">Large Language Models (LLMs)</span> — they predict the next token. The magic is in scale.
+  </div>
+</div>
 
 ---
 layout: center
