@@ -1,6 +1,6 @@
 ---
 theme: default
-colorSchema: dark
+colorSchema: auto
 highlighter: shiki
 lineNumbers: false
 transition: slide-left
@@ -19,19 +19,19 @@ fonts:
      SLIDE 1 — COVER
      ════════════════════════════════════════════════════ -->
 
-<div style="position: absolute; top: 28px; left: 0; right: 0; text-align: center; font-size: 10px; letter-spacing: 0.25em; color: #60A5FA; font-family: monospace; text-transform: uppercase;">
+<div style="position: absolute; top: 28px; left: 0; right: 0; text-align: center; font-size: 10px; letter-spacing: 0.25em; color: var(--accent-blue); font-family: monospace; text-transform: uppercase;">
   Hack-Go-Thon 2026 · KOMDIGI · 7 April 2026
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center;">
-  <div style="font-size: 3rem; font-weight: 700; line-height: 1.15; color: white; margin-bottom: 16px;">
+  <div style="font-size: 3rem; font-weight: 700; line-height: 1.15; color: var(--text-primary); margin-bottom: 16px;">
     Building with AI:<br>
-    <span style="color: #60A5FA;">From Idea to Deployed App</span>
+    <span style="color: var(--accent-blue);">From Idea to Deployed App</span>
   </div>
-  <div style="font-size: 1.15rem; color: #94A3B8; font-weight: 300;">What every developer needs to know in 2026</div>
-  <div style="margin-top: 52px; font-size: 0.8rem; color: #475569; font-family: monospace; line-height: 1.8;">
-    Yanuz Nurchalik · Head of Product Core, <span style="color: #94A3B8;">AstraPay</span><br>
-    <span style="color: #374151;">KOMDIGI</span>
+  <div style="font-size: 1.15rem; color: var(--text-muted); font-weight: 300;">What every developer needs to know in 2026</div>
+  <div style="margin-top: 52px; font-size: 0.8rem; color: var(--text-muted); font-family: monospace; line-height: 1.8;">
+    Yanuz Nurchalik · Head of Product Core, <span style="color: var(--text-secondary);">AstraPay</span><br>
+    <span style="color: var(--text-muted);">KOMDIGI</span>
   </div>
 </div>
 
@@ -335,14 +335,14 @@ layout: center
       <div style="font-weight: 700; font-size: 0.88rem; color: white; margin-top: 8px;">You Describe</div>
     </div>
     <div style="display: flex; align-items: center; padding: 0 6px; color: #475569; font-size: 1.3rem;">&#8594;</div>
-    <div style="flex: 1; background: #0F1929; border: 1px solid #1E2D4A; border-radius: 14px; padding: 22px 10px; text-align: center;">
+    <div style="flex: 1; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 22px 10px; text-align: center;">
       <div style="font-size: 2rem; line-height: 1;">🧠</div>
-      <div style="font-weight: 600; font-size: 0.88rem; color: #94A3B8; margin-top: 8px;">Agent Plans</div>
+      <div style="font-weight: 600; font-size: 0.88rem; color: var(--text-muted); margin-top: 8px;">Agent Plans</div>
     </div>
-    <div style="display: flex; align-items: center; padding: 0 6px; color: #475569; font-size: 1.3rem;">&#8594;</div>
-    <div style="flex: 1; background: #0F1929; border: 1px solid #1E2D4A; border-radius: 14px; padding: 22px 10px; text-align: center;">
+    <div style="display: flex; align-items: center; padding: 0 6px; color: var(--text-muted); font-size: 1.3rem;">&#8594;</div>
+    <div style="flex: 1; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 22px 10px; text-align: center;">
       <div style="font-size: 2rem; line-height: 1;">⚡</div>
-      <div style="font-weight: 600; font-size: 0.88rem; color: #94A3B8; margin-top: 8px;">Agent Executes</div>
+      <div style="font-weight: 600; font-size: 0.88rem; color: var(--text-muted); margin-top: 8px;">Agent Executes</div>
     </div>
     <div style="display: flex; align-items: center; padding: 0 6px; color: #475569; font-size: 1.3rem;">&#8594;</div>
     <div style="flex: 1; background: #3B82F6; border-radius: 14px; padding: 22px 10px; text-align: center;">
@@ -352,7 +352,7 @@ layout: center
   </div>
 
   <div style="display: flex; gap: 12px; margin-top: 20px;">
-    <div style="flex: 3; background: #1E2D4A; border-radius: 10px; padding: 14px 20px; color: #64748B; font-size: 0.82rem; font-family: monospace; text-align: center;">
+    <div style="flex: 3; background: var(--bg-surface-2); border-radius: 10px; padding: 14px 20px; color: var(--text-muted); font-size: 0.82rem; font-family: monospace; text-align: center;">
       &#x21A9; Refine &#8212; redirect in one sentence &#8594; loops back
     </div>
     <div style="flex: 1; background: #10B981; border-radius: 10px; padding: 14px 20px; color: white; font-size: 0.85rem; font-weight: 700; text-align: center;">
@@ -760,51 +760,51 @@ layout: center
 <div class="grid grid-cols-4 gap-4 mt-6 max-w-3xl mx-auto">
 
   <div class="stack-badge">
-    <div class="text-3xl mb-2 text-white font-bold">▲</div>
+    <div class="flex justify-center mb-2"><span class="i-logos-nextjs-icon w-8 h-8 inline-block" /></div>
     <div class="font-semibold text-sm">Next.js 15</div>
     <div class="text-xs text-slate-500 mt-1">Frontend</div>
   </div>
 
   <div class="stack-badge">
-    <div class="text-2xl mb-2 font-bold text-blue-400">TS</div>
+    <div class="flex justify-center mb-2"><span class="i-logos-typescript-icon w-8 h-8 inline-block" /></div>
     <div class="font-semibold text-sm">TypeScript</div>
     <div class="text-xs text-slate-500 mt-1">Language</div>
   </div>
 
   <div class="stack-badge">
-    <div class="text-2xl mb-2">🎨</div>
+    <div class="flex justify-center mb-2"><span class="i-logos-tailwindcss-icon w-8 h-8 inline-block" /></div>
     <div class="font-semibold text-sm">Tailwind + shadcn</div>
     <div class="text-xs text-slate-500 mt-1">UI</div>
   </div>
 
   <div class="stack-badge">
-    <div class="text-2xl mb-2">🔥</div>
+    <div class="flex justify-center mb-2"><span class="i-logos-hono w-8 h-8 inline-block" /></div>
     <div class="font-semibold text-sm">Hono</div>
     <div class="text-xs text-slate-500 mt-1">API Framework</div>
   </div>
 
   <div class="stack-badge">
-    <div class="text-2xl mb-2">☁️</div>
+    <div class="flex justify-center mb-2"><span class="i-logos-cloudflare w-8 h-8 inline-block" /></div>
     <div class="font-semibold text-sm">Cloudflare D1</div>
     <div class="text-xs text-slate-500 mt-1">Database</div>
   </div>
 
   <div class="stack-badge">
-    <div class="text-2xl mb-2">⚡</div>
+    <div class="flex justify-center mb-2"><span class="i-logos-vitest w-8 h-8 inline-block" /></div>
     <div class="font-semibold text-sm">Vitest</div>
     <div class="text-xs text-slate-500 mt-1">Unit Testing</div>
   </div>
 
   <div class="stack-badge">
-    <div class="text-2xl mb-2">🎭</div>
+    <div class="flex justify-center mb-2"><span class="i-logos-playwright w-8 h-8 inline-block" /></div>
     <div class="font-semibold text-sm">Playwright</div>
     <div class="text-xs text-slate-500 mt-1">E2E Testing</div>
   </div>
 
-  <div class="stack-badge" style="border-color: rgba(249,115,22,0.4); background: rgba(124,45,18,0.1); ring: rgba(249,115,22,0.3);">
-    <div class="text-2xl mb-2">⚙️</div>
-    <div class="font-semibold text-sm" style="color: #FED7AA;">Cloudflare</div>
-    <div class="text-xs mt-1" style="color: #9a3412;">Pages + Workers</div>
+  <div class="stack-badge" style="border-color: rgba(249,115,22,0.4);">
+    <div class="flex justify-center mb-2"><span class="i-logos-cloudflare-workers w-8 h-8 inline-block" /></div>
+    <div class="font-semibold text-sm">Cloudflare</div>
+    <div class="text-xs text-slate-500 mt-1">Pages + Workers</div>
   </div>
 
 </div>
@@ -852,42 +852,42 @@ title: You Have 75 Minutes Starting at 10:15
      SLIDE 14 — YOU HAVE 75 MINUTES
      ════════════════════════════════════════════════════ -->
 
-<div style="text-align: center; margin-bottom: 18px;"><h1 style="font-size: 1.9rem; font-weight: 700; color: white; line-height: 1.2;">You Have 75 Minutes Starting at 10:15</h1></div>
+<div style="text-align: center; margin-bottom: 18px;"><h1 style="font-size: 1.9rem; font-weight: 700; color: var(--text-primary); line-height: 1.2;">You Have 75 Minutes Starting at 10:15</h1></div>
 <div style="max-width: 520px; margin: 0 auto;">
-  <div style="border-radius: 12px; border: 1px solid rgba(59,130,246,0.4); background: rgba(23,37,84,0.12); padding: 24px;">
-    <div style="font-size: 10px; font-family: monospace; color: #60A5FA; letter-spacing: 0.2em; margin-bottom: 20px;">YOUR QUICK-START GUIDE</div>
+  <div style="border-radius: 12px; border: 1px solid var(--card-inner-border); background: var(--card-inner-bg); padding: 24px;">
+    <div style="font-size: 10px; font-family: monospace; color: var(--accent-blue); letter-spacing: 0.2em; margin-bottom: 20px;">YOUR QUICK-START GUIDE</div>
     <div style="display: flex; flex-direction: column; gap: 16px;">
       <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">1</div>
+        <div style="color: var(--accent-blue); font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">1</div>
         <div>
-          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Plan before you prompt</div>
-          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">"I want to build X for Y users. Key features: A, B, C."</div>
+          <div style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">Plan before you prompt</div>
+          <div style="font-size: 0.75rem; color: var(--snippet-color); font-family: monospace; background: var(--snippet-bg); border-radius: 6px; padding: 4px 8px;">"I want to build X for Y users. Key features: A, B, C."</div>
         </div>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">2</div>
+        <div style="color: var(--accent-blue); font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">2</div>
         <div>
-          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Design with Stitch or v0 first</div>
-          <div style="font-size: 0.75rem; color: #64748B; margin-top: 2px;">Get your UI components visually &#8212; faster to iterate than code</div>
+          <div style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">Design with Stitch or v0 first</div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">Get your UI components visually &#8212; faster to iterate than code</div>
         </div>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">3</div>
+        <div style="color: var(--accent-blue); font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">3</div>
         <div>
-          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Let the agent build and deploy</div>
-          <div style="font-size: 0.75rem; color: #64748B; font-family: monospace; background: rgba(15,25,41,0.6); border-radius: 6px; padding: 4px 8px;">claude "Build the app &#8212; read plan, integrate design, deploy Cloudflare"</div>
+          <div style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">Let the agent build and deploy</div>
+          <div style="font-size: 0.75rem; color: var(--snippet-color); font-family: monospace; background: var(--snippet-bg); border-radius: 6px; padding: 4px 8px;">claude "Build the app &#8212; read plan, integrate design, deploy Cloudflare"</div>
         </div>
       </div>
       <div style="display: flex; align-items: flex-start; gap: 12px;">
-        <div style="color: #60A5FA; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">4</div>
+        <div style="color: var(--accent-blue); font-weight: 700; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; min-width: 16px;">4</div>
         <div>
-          <div style="font-size: 0.875rem; font-weight: 600; color: white; margin-bottom: 4px;">Iterate &#8212; each round is 2&#8211;5 minutes</div>
-          <div style="font-size: 0.75rem; color: #64748B; margin-top: 2px;">Ship something real. Do not wait for perfect.</div>
+          <div style="font-size: 0.875rem; font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">Iterate &#8212; each round is 2&#8211;5 minutes</div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">Ship something real. Do not wait for perfect.</div>
         </div>
       </div>
     </div>
   </div>
-  <div style="margin-top: 12px; font-size: 0.72rem; color: #374151; font-family: monospace; text-align: center;">npm install -g @anthropic-ai/claude-code</div>
+  <div style="margin-top: 12px; font-size: 0.72rem; color: var(--text-muted); font-family: monospace; text-align: center;">npm install -g @anthropic-ai/claude-code</div>
 </div>
 
 ---

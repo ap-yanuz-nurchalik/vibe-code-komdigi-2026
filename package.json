@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build",
-    "build:light": "node scripts/gen-light.js && slidev build --base /light/ --out dist/light slides-light.md",
-    "export": "slidev export --format pdf --with-clicks",
+"export": "slidev export --format pdf --with-clicks",
     "preview": "slidev preview"
   },
   "dependencies": {
